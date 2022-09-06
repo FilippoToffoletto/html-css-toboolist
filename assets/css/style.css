@@ -1,0 +1,31 @@
+/* general */
+*{
+
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f6f8f9dc;
+}
+
+
+header{
+  background-color: white;
+  padding: 10px;
+
+}
+
+header img{
+  vertical-align: middle;
+}
+
+header h1{
+  display: inline-block;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 35px;
+  vertical-align: middle;
+}
+
