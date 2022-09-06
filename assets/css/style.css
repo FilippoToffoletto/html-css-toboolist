@@ -32,10 +32,11 @@ header h1{
 
 main{
   background-color: white;
-  margin: 2% 15%;
+  margin: 2% 25%;
   border-radius: 5px;
-  margin-bottom: 10px;
+  height: 620px;
 }
+
 
 nav{
   padding: 15px;
@@ -73,7 +74,7 @@ hr{
 }
 
 main div.mini-title{
-  padding-top: 10px;
+  padding-top: 20px;
   margin: 0 10px;
 }
 
@@ -102,7 +103,7 @@ span.false{
 }
 
 div .editorial,.q1-goals,
-.recruiting,.mobile,.website{
+.recruiting,.mobile,.website,.sales{
   display: inline-block;
   color: white;
   width: 75px;
@@ -111,7 +112,7 @@ div .editorial,.q1-goals,
   line-height: 28px;
   border-radius: 10px;
   font-size: .7rem;
-  margin-top: 15px;
+  margin-top: 18px;
 }
 /* p::before{
   content: ' \2713  ';
@@ -145,3 +146,4 @@ div .website{
 div .sales{
   background-color: #B0C926;
 }
+
