@@ -32,8 +32,9 @@ header h1{
 
 main{
   background-color: white;
-  margin: 5% 20%;
+  margin: 2% 15%;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 nav{
@@ -82,9 +83,27 @@ p{
   display: inline-block;
 }
 
-div .editorial{
+span.check{
+  color: greenyellow;
+  background-color: white;
+  border: 1.5px solid greenyellow;
+  border-radius: 50%;
+  line-height: 5px;
+  font-size: 1rem;
+}
+
+span.false{
+  color: red;
+  background-color: white;
+  border: 1.5px solid red;
+  border-radius: 50%;
+  line-height: 5px;
+  font-size: 1rem;
+}
+
+div .editorial,.q1-goals,
+.recruiting,.mobile,.website{
   display: inline-block;
-  background-color: #4AB0EB;
   color: white;
   width: 75px;
   height: 28px;
@@ -92,6 +111,7 @@ div .editorial{
   line-height: 28px;
   border-radius: 10px;
   font-size: .7rem;
+  margin-top: 15px;
 }
 /* p::before{
   content: ' \2713  ';
@@ -102,24 +122,26 @@ div .editorial{
   margin: auto auto;
 } */
 
-span.check{
-  color: greenyellow;
-  background-color: white;
-  border: 1.5px solid greenyellow;
-  border-radius: 50%;
-  line-height: 5px;
-  font-size: 1rem;
+div .editorial{
+  background-color: #4AB0EB;
 }
 
 div .q1-goals{
-  display: inline-block;
   background-color: #9C72E4;
-  color: white;
-  width: 75px;
-  height: 28px;
-  text-align: center;
-  line-height: 28px;
-  border-radius: 10px;
-  font-size: .7rem;
-  margin-top: 8px;
+}
+
+div .recruiting{
+  background-color: #6AC4B0;
+}
+
+div .mobile{
+  background-color: #F29E33;
+}
+
+div .website{
+  background-color: #D863A1;
+}
+
+div .sales{
+  background-color: #B0C926;
 }
